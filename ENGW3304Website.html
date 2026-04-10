@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee AI Policy | ENGW-3304 Solutions</title>
+    <style>
+    
+        :root {
+            --primary-color: #4F46E5; 
+            --background-color: #F8FAFC;
+            --card-color: #FFFFFF;
+            --text-main: #334155;
+            --text-light: #64748B;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #3730A3;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro-text {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            color: var(--text-light);
+        }
+
+        details {
+            background-color: var(--card-color);
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        details[open] {
+            box-shadow: 0 6px 12px rgba(79, 70, 229, 0.15);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        summary {
+            padding: 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            transition: transform 0.2s;
+        }
+
+        details[open] summary::after {
+            content: '−';
+            transform: rotate(180deg);
+        }
+
+        .faq-content {
+            padding: 0 20px 20px 20px;
+            color: var(--text-light);
+            border-top: 1px solid #E2E8F0;
+            margin-top: 10px;
+            padding-top: 15px;
+        }
+
+        .highlight {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Team!</h1>
+        <p>Your Guide to Working with AI at ENGW-3304 Solutions</p>
+    </header>
+
+    <div class="container">
+        <div class="intro-text">
+            <p>We are so excited to have you join us! We've rolled out some new AI tools to help you do your best work. We know new tech can be confusing, and sometimes a little scary, so we put together this FAQ to help you.</p>
+        </div>
+
+        <details>
+            <summary>1. Honestly speaking, is this AI going to take my job?</summary>
+            <div class="faq-content">
+                <p><strong>Absolutely not.</strong> We view AI as <span class="highlight">Augmented Intelligence</span>. It acts as more of a very efficient virtual intern, or a "co-pilot" for your workday.</p>
+                <p>It does the boring, repetitive administrative tasks so that you have more time to focus on the creative, ambiguous work that only a human can do. The AI is just helping you navigate, at the end of the day, you are the driver!</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>2. Do I need to be a tech expert to use this?</summary>
+            <div class="faq-content">
+                <p>Not at all. If you know how to write an email or a text message, you already have all the skills you need.</p>
+                <p>To make this transition as smooth as possible, we are providing full training workshops (known as <span class="highlight">"upskilling"</span>) to make sure everyone feels completely comfortable using the new tools.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>3. Can I just use public AI models like ChatGPT or Claude to write my emails?</summary>
+            <div class="faq-content">
+                <p>Please do not do this. This is what is known as <span class="highlight">"Shadow AI."</span> Public tools "learn" from the data you type into them.</p>
+                <p>If you paste a client's private information into a public AI tool, we lose control of that data, to keep this data safe, we require you to only use our officially approved internal tool, which has a strict lock on privacy.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>4. Can I connect the AI to my personal apps, like my own Google Drive or Notion?</summary>
+            <div class="faq-content">
+                <p>For now, keep the AI connected only to the official company network. When everyone uses their own disjointed personal apps, it creates what we call <span class="highlight">"Data Silos"</span>, and this means our teams can't share information or collaborate effectively.</p>
+                <p>Stick to the approved company software to ensure data stays connected.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>5. What if the AI makes a mistake?</summary>
+            <div class="faq-content">
+                <p>It most likely will. An AI is reliant on the data it gets fed. If it reads outdated files, it will give you a wrong answer.</p>
+                <p>That is why our policy requires a <span class="highlight">"Human-in-the-loop."</span> You should never let the AI finalize work on its own. It drafts the work, but <strong>you</strong> are responsible for double-checking the facts before it goes to a client or gets published.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>6. What if the AI gives me an answer that seems biased, unfair, or inappropriate?</summary>
+            <div class="faq-content">
+                <p>Flag it immediately within the chat. Because AI models learn from millions of documents on the internet, they can sometimes adapt bad habits or biases.</p>
+                <p>We have strict <span class="highlight">"Governance"</span> rules in place to work to prevent this, however, there can be occasional issues. If you see something improper or offensive, let IT know right away so we can fix the system.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>7. How do I know if I'm using the AI model correctly?</summary>
+            <div class="faq-content">
+                <p>We are not concerned with how many prompts you type or how many times you log in. We only care if it's making your work easier.</p>
+                <p>Success to the organization means are saving hours of admin work each week, allowing you to focus on the work that matters. If the tool is frustrating you or slowing you down, reach out to IT. We want this to be a enhance for your daily workflow.</p>
+            </div>
+        </details>
+    </div>
+
+    <footer>
+        <p>© 2026 ENGW-3304 Solutions Human Resources | Need help? Email IT-support@engw3304.com</p>
+    </footer>
+
+</body>
+</html>
